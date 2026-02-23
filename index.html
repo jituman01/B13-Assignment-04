@@ -22,7 +22,37 @@
     }
   </style>
 </head>
-<body>
+<body class="bg-[#F8FAFC] min-h-screen p-4 md:p-10 ">
+
+  
+<!-- header section -->
+  <div class="max-w-5xl mx-auto w-[80%]">
+   <header class="mb-8">
+       <h1 class="text-3xl font-bold text-[#002C5C]">Job Application Tracker</h1>
+
+       <!-- count section -->
+       <div class="grid grid-cols-3 gap-6 mt-5 mb-10">
+               <div class="stats shadow bg-white">
+                   <div class="stat">
+                       <div class="stat-title font-semibold">Total</div>
+                       <div id="total-count" class="stat-value text-blue-600">0</div>
+                   </div>
+               </div>
+               <div class="stats shadow bg-white">
+                   <div class="stat">
+                       <div class="stat-title font-semibold">Interview</div>
+                       <div id="interview-count" class="stat-value text-green-400">0</div>
+                   </div>
+               </div>
+               <div class="stats shadow bg-white">
+                   <div class="stat">
+                       <div class="stat-title font-semibold">Rejected</div>
+                       <div id="rejected-count" class="stat-value text-red-500">0</div>
+                   </div>
+               </div>
+           </div>
+   </header>
+
   
 </body>
 </html>
