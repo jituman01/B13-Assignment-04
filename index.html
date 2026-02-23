@@ -48,7 +48,7 @@
    </header>
 
   <!-- main section -->
-    <main class="w-[85%] mx-auto">
+    <main class="">
 
 <!-- available job section -->
           <div class="flex flex-row justify-between items-center mb-6">
@@ -63,6 +63,19 @@
       <button  id="interview-filter-btn" class="bg-white text-black px-8 py-3 rounded-xl border border-slate-100 font-medium shadow">Interview</button>
       
       <button  id="rejected-filter-btn" class="bg-white text-black px-8 py-3 rounded-xl border border-slate-100 font-medium shadow">Rejected</button>
+  </div>
+
+  <!-- empty div -->
+  <section id="filtered-section" class="hidden space-y-6"></section>
+
+  <!-- no job available section -->
+<div id="empty-state" class="flex flex-col items-center justify-center py-24 bg-white borde rounded-xl shadow">
+
+    <img src="./assets/jobs.png" alt="No jobs" class=" mb-6 opacity-80">
+
+    <h3 class="text-2xl font-bold text-[#002C5C] mb-1">No jobs available</h3>
+
+    <p class="text-[#64748B]">Check back soon for new job opportunities</p>
   </div>
 
     </main>
