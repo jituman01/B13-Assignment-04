@@ -32,18 +32,18 @@
 
        <!-- count section -->
 <div class="grid grid-cols-3 gap-6">
-            <div class="bg-white p-8 rounded-xl shadow-sm">
-                <h2 class="text-[#64748B] font-semibold mb-2">Total</h2>
-                <h2 id="total" class="text-4xl font-bold text-blue-600">0</h2>
-            </div>
-            <div class="bg-white p-8 rounded-lg shadow-sm ">
-                <h2 class="text-[#64748B] font-semibold mb-2">Interview</h2>
-                <h2 id="interviewCount" class="text-4xl font-bold text-green-400">0</h2>
-            </div>
-            <div class="bg-white p-8 rounded-lg shadow-sm ">
-                <h2 class="text-[#64748B] font-semibold mb-2">Rejected</h2>
-                <h2 id="rejectedCount" class="text-4xl font-bold text-red-500">0</h2>
-            </div>
+    <div class="bg-white p-8 rounded-xl shadow-sm">
+        <h2 class="text-[#64748B] font-semibold mb-2">Total</h2>
+        <h2 id="total" class="text-4xl font-bold text-blue-600">0</h2>
+    </div>
+    <div class="bg-white p-8 rounded-lg shadow-sm ">
+        <h2 class="text-[#64748B] font-semibold mb-2">Interview</h2>
+        <h2 id="interviewCount" class="text-4xl font-bold text-green-400">0</h2>
+    </div>
+    <div class="bg-white p-8 rounded-lg shadow-sm ">
+        <h2 class="text-[#64748B] font-semibold mb-2">Rejected</h2>
+        <h2 id="rejectedCount" class="text-4xl font-bold text-red-500">0</h2>
+    </div>
         </div>
    </header>
 
@@ -54,6 +54,15 @@
           <div class="flex flex-row justify-between items-center mb-6">
       <h2 class="text-[#002C5C] text-xl font-bold">Available Jobs</h2>
       <span id="job-status-count" class="text-gray-500 font-medium text-sm">0 jobs</span>
+  </div>
+
+  <!-- button toggle section -->
+   <div class="flex gap-2 mb-8">
+      <button id="all-filter-btn" class=" text-white bg-blue-500  px-8 py-3 rounded-xl font-medium border border-slate-100 shadow">All</button>
+
+      <button  id="interview-filter-btn" class="bg-white text-black px-8 py-3 rounded-xl border border-slate-100 font-medium shadow">Interview</button>
+      
+      <button  id="rejected-filter-btn" class="bg-white text-black px-8 py-3 rounded-xl border border-slate-100 font-medium shadow">Rejected</button>
   </div>
 
     </main>
